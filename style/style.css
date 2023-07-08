@@ -15,6 +15,13 @@ body{
     border-radius: 5px;
 
 }
+.section-titel{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+}
 
 
 /* navbar style start */
@@ -82,3 +89,30 @@ nav li a {
     margin-bottom: 30px;
 }
 /* banner style end  */
+
+/* main section start  */
+
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* main section end */
+
+
+/* about section start  */
+
+.about-section{
+    background-color: #FFF8F3;
+    margin: 130px 0;
+    padding: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+.section-description{
+    text-align: center;
+}
