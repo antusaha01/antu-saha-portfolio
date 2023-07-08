@@ -17,11 +17,12 @@ body{
 }
 
 
-/* navbar start */
+/* navbar style start */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav ul {
     display: flex;
@@ -33,6 +34,7 @@ nav ul {
 nav li a {
     text-decoration: none;
     margin-right: 50px;
+    color: #181818;
 }
 .nav-titel{
     color: #181818;
@@ -40,4 +42,16 @@ nav li a {
     font-style: normal;
     font-weight: 800;
 }
-/* navbar end */
+/* navbar style end */
+
+/* header style start */
+
+.header{
+    background-color: #FFF8F3;
+}
+.banear{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+/* header style end */
