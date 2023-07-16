@@ -33,7 +33,9 @@ body{
 .section-description{
     text-align: center;
 }
-
+.hide{
+    display: none;
+}
 
 /* navbar style start */
 nav {
@@ -224,3 +226,26 @@ footer{
     margin-top: 130px;
 }
 /* footer section start  */
+
+
+/* media query */
+@media screen and (max-width:576px) {
+    .skill-container, .resume-container, .about-info-container{
+        display: grid;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    #what-i-do-description{
+        padding: 30px 20px;
+    }
+    .from-section-container{
+        flex-direction: column;
+        
+    }
+    .about-section{
+        padding: 30px;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 992px) {
+
+}
